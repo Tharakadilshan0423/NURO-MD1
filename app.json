@@ -1,5 +1,5 @@
 {
-  "name": "YourBot",
+  "name": "NURO",
   "description": "Javascript WhatsApp bot made by YourName",
   "logo": "https://telegra.ph/file/ad25b2227fa2a1a01b707.jpg",
   "keywords": ["bot"],
@@ -12,12 +12,12 @@
     },  
 
     "ALIVE_IMG": {
-      "description": "Put your alive img here.",
+      "description": "https://www.canva.com/design/DAGVDQWw34c/1GDMp7bSezahQvaMzG3gOA/watch?utm_content=DAGVDQWw34c&utm_campaign=designshare&utm_medium=link&utm_source=editor.jpg",
       "required": true
     },
     
     "ALIVE_MSG": {
-      "description": "Put your alive msg here.",
+      "description": "https://www.canva.com/design/DAGVDQWw34c/1GDMp7bSezahQvaMzG3gOA/watch?utm_content=DAGVDQWw34c&utm_campaign=designshare&utm_medium=link&utm_source=edijpgtor.",
       "required": true
     }   
 },
