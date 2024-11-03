@@ -1,23 +1,18 @@
 {
-  "name": "NURO",
-  "description": "Javascript WhatsApp bot made by YourName",
-  "logo": "https://telegra.ph/file/ad25b2227fa2a1a01b707.jpg",
+  "name": "NURO-MD",
+  "description": "hi am ishu md creat by laksidu",
+  "logo": "https://i.imgur.com/LTVGRX8.jpeg",
   "keywords": ["bot"],
   "success_url": "/",
 
   "env": {
     "SESSION_ID": {
-      "description": "LdQg2YDb#z4Y8S860ZYG-Wu7en777ptHBpNCJkcnWrOpgYHEnYVM.",
-      "required": true
+      "description": "Add QUEEN ISHU Session ID",
+      "required": false
     },  
 
-    "ALIVE_IMG": {
-      "description": "https://www.canva.com/design/DAGVDQWw34c/1GDMp7bSezahQvaMzG3gOA/watch?utm_content=DAGVDQWw34c&utm_campaign=designshare&utm_medium=link&utm_source=editor.jpg",
-      "required": true
-    },
-    
-    "ALIVE_MSG": {
-      "description": "https://www.canva.com/design/DAGVDQWw34c/1GDMp7bSezahQvaMzG3gOA/watch?utm_content=DAGVDQWw34c&utm_campaign=designshare&utm_medium=link&utm_source=edijpgtor.",
+        "MONGODB": {
+      "description": "Put your Mongodb url",
       "required": true
     }   
 },
