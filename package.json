@@ -4,9 +4,9 @@
   "description": "A WhatsApp bot created using Node.js",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name wabot",
-    "stop": "pm2 stop wabot",
-    "restart": "pm2 restart wabot"
+    "start": "pm2 start index.js --deep-monitoring --attach --name ishubot",
+    "stop": "pm2 stop ishubot",
+    "restart": "pm2 restart ishubot"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "6.6.0",
@@ -22,6 +22,12 @@
     "node-fetch": "^2.6.1",
     "megajs": "^1.1.0",
     "vm": "^0.1.0",
-    "qrcode-terminal": "^0.12.0"
+    "qrcode-terminal": "^0.12.0",
+     "yt-search": "2.12.1",
+    "api-dylux": "1.8.5",
+    "mongoose":"8.5.3",
+    "youtubedl-core": "^4.11.5",
+    "google-tts-api":"2.0.2",
+    "wa-sticker-formatter":"4.4.4"
   }
 }
