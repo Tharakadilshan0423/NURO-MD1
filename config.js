@@ -6,5 +6,18 @@ function convertToBool(text, fault = 'true') {
 }
 module.exports = {
 SESSION_ID: process.env.SESSION_ID || "LdQg2YDb#z4Y8S860ZYG-Wu7en777ptHBpNCJkcnWrOpgYHEnYVM",
-MONGODB: process.env.MONGODB || "mongodb+srv://SithumKalhara:97531@cluster0.iva7dbo.mongodb.net/?retryWrites=true&w=majority"
+AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true",
+MODE: process.env.MODE || "public",
+AUTO_VOICE: process.env.AUTO_VOICE || "true",
+AUTO_STICKER: process.env.AUTO_STICKER || "false",
+AUTO_REPLY: process.env.AUTO_REPLY || "false",
+ALIVE_IMG: process.env.ALIVE_IMG || "https://ibb.co/dk69bSZ.jpg",
+ALIVE_MSG: process.env.ALIVE_MSG || "HII DEAR IM ONLINE I'M SILENT-SOBX-MD WHATSAPP BOT 😊♻️",
+ANTI_LINK: process.env.ANTI_LINK || "true",
+ANTI_BAD: process.env.ANTI_BAD || "true",
+PREFIX: process.env.PREFIX || ".",
+FAKE_RECORDING: process.env.FAKE_RECORDING || "true",
+AUTO_REACT: process.env.AUTO_REACT || "true",
+OWNER_REACT: process.env.OWNER_REACT || "true",
+BOT_NAME: process.env.BOT_NAME || "➺ѕเℓεɳƭ_ℓσѵε૨࿐",
 };
