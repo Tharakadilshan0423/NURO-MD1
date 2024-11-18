@@ -6,7 +6,7 @@
   "scripts": {
     "start": "pm2 start index.js --deep-monitoring --attach --name NURO-MD",
     "stop": "pm2 stop NURO-MD",
-    "restart": "pm2 restart SILENT-SOBX-MD"
+    "restart": "pm2 restart NURO-MD"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "6.7.9",
