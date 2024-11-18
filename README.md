@@ -1,6 +1,7 @@
 # NURO-MD1
 𝗔 𝗦𝗜𝗠𝗣𝗟𝗘 𝗪𝗔 𝗕𝗢𝗧
-# DEPLOY WORKFLOW
+### <br>   ❖ DEPLOY_WORKFLOWS ❖
+```
 name: Node.js CI
 
 on:
@@ -34,4 +35,4 @@ jobs:
 
     - name: Start application
       run: npm start
-
+```
