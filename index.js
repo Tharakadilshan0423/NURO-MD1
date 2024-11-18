@@ -84,18 +84,7 @@ require("./plugins/" + plugin);
 console.log('PLUGINS FILES INSTALL SUCCESSFULLY ✅')
 console.log('NURO-MD CONNECTED TO WHATSAPP ENJOY ✅')
 
-let up = `*╭──────────────●●►*
-> *➺NURO-ᴍᴅ ᴄᴏɴɴᴇᴄᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʏ ᴛʏᴘᴇ .ᴍᴇɴᴜ ᴛᴏ ᴄᴏᴍᴍᴀɴᴅ ʟɪsᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ NURO⁴³²✅*
-
-*╭⊱✫🔮 NURO-MD 🔮✫⊱╮*
-*│✫➠ - 📂REPOSITORY NAME:* *NURO-MD*
-*│✫➠ - 📃DESCRIPTION:* *THE WORLD BEST WHATSAPP BOT♻️*
-*│✫➠ - 🛡️OWNER:* *THARAKA DILSHAN⁴³²*
-*│✫➠ - 🌐URL:* *https://github.com/Tharakadilshan0423/NURO-MD1.git*
-
-*YOUR BOT ACTIVE NOW ENJOY♥️🪄*\n\n*PREFIX: ${.}*
-
-*╰──────────────●●►*`;
+let up = `*╭───────`;
 conn.sendMessage(conn.user.id, { image: { url: `https://ibb.co/dk69bSZ.jpg` }, caption: up })
 
 }
