@@ -107,7 +107,7 @@ let up = `*╭──────────────●●►*
 *│✫➠ - 🛡️OWNER:* *ᴛʜᴀʀᴀᴋᴀ ᴅɪʟꜱʜᴀɴ⁴³²*
 *│✫➠ - 🌐URL:* *https://github.com/Tharakadilshan0423/NURO.git*
 
-*YOUR BOT ACTIVE NOW ENJOY♥️🪄*\n\n*PREFIX: ${.}*
+*YOUR BOT ACTIVE NOW ENJOY♥️🪄*\n\n*PREFIX: ${prefix}*
 
 *╰──────────────●●►*`;
 conn.sendMessage(conn.user.id, { image: { url: `https://ibb.co/dk69bSZ.jpg` }, caption: up })
