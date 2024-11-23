@@ -1,23 +1,39 @@
 const fs = require('fs');
-if (fs.existsSync('config.env')) require('dotenv').config({ path: './config.env' });
 
-function convertToBool(text, fault = 'true') {
-    return text === fault ? true : false;
+// Load environment variables if 'config.env' exists
+if (fs.existsSync('config.env')) {
+  require('dotenv').config({ path: './config.env' });
 }
+
+// Helper function to convert a string to a boolean (true if text matches the fault value)
+const convertToBool = (text, fault = 'true') => text === fault;
+
+// Default configuration values
+const defaults = {
+  SESSION_ID: "LdQg2YDb#z4Y8S860ZYG-Wu7en777ptHBpNCJkcnWrOpgYHEnYVM",
+  AUTO_READ_STATUS: "true",
+  MODE: "privet",
+  AUTO_VOICE: "true",
+  AUTO_STICKER: "false",
+  AUTO_REPLY: "false",
+  ALIVE_IMG: "https://ibb.co/dk69bSZ.jpg",
+  ALIVE_MSG: "HII DEAR IM ONLINE I'M NURO-MD WHATSAPP BOT 😊♻️",
+  ANTI_LINK: "false",
+  ANTI_BAD: "true",
+  PREFIX: ".",
+  FAKE_RECORDING: "true",
+  AUTO_REACT: "true",
+  OWNER_REACT: "true",
+  BOT_NAME: "➺NURO",
+};
+
+// Create the configuration by using the environment variables or defaults
+const config = Object.keys(defaults).reduce((acc, key) => {
+  acc[key] = process.env[key] || defaults[key];
+  return acc;
+}, {});
+
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "LdQg2YDb#z4Y8S860ZYG-Wu7en777ptHBpNCJkcnWrOpgYHEnYVM",
-AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true",
-MODE: process.env.MODE || "privet",
-AUTO_VOICE: process.env.AUTO_VOICE || "true",
-AUTO_STICKER: process.env.AUTO_STICKER || "false",
-AUTO_REPLY: process.env.AUTO_REPLY || "false",
-ALIVE_IMG: process.env.ALIVE_IMG || "https://ibb.co/dk69bSZ.jpg",
-ALIVE_MSG: process.env.ALIVE_MSG || "HII DEAR IM ONLINE I'M NURO-MD WHATSAPP BOT 😊♻️",
-ANTI_LINK: process.env.ANTI_LINK || "false",
-ANTI_BAD: process.env.ANTI_BAD || "true",
-PREFIX: process.env.PREFIX || ".",
-FAKE_RECORDING: process.env.FAKE_RECORDING || "true",
-AUTO_REACT: process.env.AUTO_REACT || "true",
-OWNER_REACT: process.env.OWNER_REACT || "true",
-BOT_NAME: process.env.BOT_NAME || "➺NURO",
+  ...config,
+  convertToBool,
 };
