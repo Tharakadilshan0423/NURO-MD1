@@ -4,106 +4,88 @@
   "logo": "https://ibb.co/dk69bSZ.jpg",
   "keywords": ["bot"],
   "success_url": "/",
-
-    "stack": "container",
+  "stack": "container",
   "env": {
     "SESSION_ID": {
-      "description": "LdQg2YDb#z4Y8S860ZYG-Wu7en777ptHBpNCJkcnWrOpgYHEnYVM",
+      "description": "Session ID for authentication",
       "required": true,
       "value": "LdQg2YDb#z4Y8S860ZYG-Wu7en777ptHBpNCJkcnWrOpgYHEnYVM"
-    },  
-    
+    },
     "ALIVE_IMG": {
-      "description": "https://ibb.co/dk69bSZ.jpg",
+      "description": "URL for the bot's alive image",
       "required": true,
       "value": "https://ibb.co/dk69bSZ.jpg"
-    }, 
-    
+    },
     "ALIVE_MSG": {
-      "description": "paste your alive message hear.",
+      "description": "Message that will be sent when bot is alive",
       "required": true,
       "value": "HI DEAR IM ONLINE.!!♻️"
     },
-    
     "PREFIX": {
-      "description": "paste your bot prefix note! Don't apply null prefix.",
+      "description": "Bot command prefix (Do not use null prefix)",
       "required": true,
       "value": "."
     },
-    
     "MODE": {
-      "description": "select your bot work type public-private-inbox-group.",
+      "description": "Bot operational mode: public, private, inbox, or group",
       "required": true,
       "value": "privet"
-    }, 
-
+    },
     "AUTO_VOICE": {
-      "description": "Make it true if you want bot auto voice.",
+      "description": "Set to true for automatic voice replies",
       "required": true,
       "value": "true"
-    }, 
-
+    },
     "AUTO_REPLY": {
-      "description": "Make it true if you want bot auto reply.",
+      "description": "Set to true for automatic replies",
       "required": true,
       "value": "true"
-    }, 
-
+    },
     "AUTO_STICKER": {
-      "description": "Make it true if you want bot auto sticker.",
+      "description": "Set to true for automatic sticker sending",
       "required": true,
       "value": "false"
-    }, 
-
+    },
     "AUTO_READ_STATUS": {
-      "description": "Make it true if you want bot auto auto_read_status.",
+      "description": "Set to true for automatic read receipt",
       "required": true,
       "value": "true"
-    }, 
-
+    },
     "ANTI_LINK": {
-      "description": "Make it true if you want bot auto remove group link.",
+      "description": "Set to true to automatically remove group links",
       "required": true,
       "value": "false"
     },
-
     "ANTI_BAD": {
-      "description": "Make it true if you want bot auto delete bad words from group example xxx porn etc.",
+      "description": "Set to true to automatically delete bad words in groups",
       "required": true,
       "value": "false"
-    }, 
-
+    },
     "FAKE_RECORDING": {
-      "description": "Make it true if you want bot fake record.",
+      "description": "Set to true to fake recording functionality",
       "required": true,
       "value": "true"
     },
-
     "AUTO_REACT": {
-      "description": "Make it true if you want bot AutoReact.",
+      "description": "Set to true for automatic reactions from the bot",
       "required": true,
       "value": "true"
     },
-
     "OWNER_REACT": {
-      "description": "Make it true if you want bot OwnerReact.",
+      "description": "Set to true for reactions from the bot's owner",
       "required": true,
       "value": "true"
-    
-    }, 
-
+    },
     "BOT_NAME": {
-      "description": "write hear your name.",
+      "description": "The name of your bot",
       "required": true,
       "value": "✦sɪʟᴇɴᴛ-sᴏʙx-ᴍᴅ✦"
     }
-
-},
-
-     "buildpacks": [
-        {
-            "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
-        }
-     ],
+  },
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+    }
+  ],
   "stack": "heroku-24"
 }
