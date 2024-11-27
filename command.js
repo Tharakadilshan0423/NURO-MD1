@@ -1,24 +1,25 @@
-const commands = [];
+var commands = [];
 
 function cmd(info, func) {
-    // Default values for info object properties
-    info.function = func;
-    info.dontAddCommandList = info.dontAddCommandList || false;
-    info.desc = info.desc || '';
-    info.fromMe = info.fromMe || false;
-    info.category = info.category || 'misc';
-    info.filename = info.filename || 'Not Provided';
-
-    // Push the modified info object to the commands array
-    commands.push(info);
-    
-    return info;
+    var data = info;
+    data.function = func;
+    if (!data.dontAddCommandList) data.dontAddCommandList = false;
+    if (!info.desc) info.desc = '';
+    if (!data.fromMe) data.fromMe = false;
+    if (!info.category) data.category = 'misc';
+    if(!info.filename) data.filename = "Not Provided";
+    commands.push(data);
+    return data;
 }
-
 module.exports = {
     cmd,
-    AddCommand: cmd,
-    Function: cmd,
-    Module: cmd,
-    commands
+    AddCommand:cmd,
+    Function:cmd,
+    Module:cmd,
+    commands,
+
 };
+
+
+
+//COMMNAD
