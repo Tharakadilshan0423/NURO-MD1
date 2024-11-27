@@ -1,0 +1,36 @@
+{
+  "name": "QUEEN-ISHU(main)",
+  "description": "LAKSIDU NIMSARA",
+  "logo": "https://i.imgur.com/LTVGRX8.jpeg",
+  "keywords": ["nodejs", "bot", "whatsapp bot", "multi device"],
+  "success_url": "/",
+
+  "env": {
+    "SESSION_ID": {
+      "description": "Put Your SESSION ID",
+      "required": false
+    },
+
+      "AUTO_READ_STATUS": {
+       "description": "true or false",
+         "required": false
+
+     },
+
+      "MODE": {
+         "description": "priver/public",
+            "required": false
+
+     }
+
+  },
+
+     "buildpacks": [
+        {
+            "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+        }
+     ],
+  "stack": "heroku-22"
+  
+  
+}
