@@ -7,10 +7,10 @@ function convertToBool(text, fault = 'true') {
 module.exports = {
 ///================================================MAIN-CONFIG=============================================
 SESSION_ID: process.env.SESSION_ID || "Put Session Id",  // ADD Your Session Id 
-MODE: process.env.MODE || "public",  // Add Your Bot Mode 
+MODE: process.env.MODE || "privet",  // Add Your Bot Mode 
 PREFIX: process.env.PREFIX || ".",   // Add Your Custom Prefix 
 OWNER_REACT: process.env.OWNER_REACT || "true", //add true or false
-BOT_NAME: process.env.BOT_NAME || "laksidu",
+BOT_NAME: process.env.BOT_NAME || "NURO",
 ///==========================================CUSTOM-SETTING-CONFIG=========================================
 AUTO_VOICE: process.env.AUTO_VOICE || "true", //add true or false
 AUTO_STICKER: process.env.AUTO_STICKER || "true", //add true or false
@@ -27,5 +27,5 @@ PASTEBIN_API_KEY: process.env.PASTEBIN_API_KEY || "uh8QvO6vQJGtIug9WvjdTAPx_ZAFJ
 OMDB_API_KEY: process.env.OMDB_API_KEY || "76cb7f39", // omdbapi.com
 ///===============================================ALIVE-CONFIG=========================================
 ALIVE_IMG: process.env.ALIVE_IMG || "https://i.imgur.com/Md3nK0I.jpeg", //add alive img url
-ALIVE_MSG: process.env.ALIVE_MSG || "HI AME WHATSAPP BOT", //add alive msg
+ALIVE_MSG: process.env.ALIVE_MSG || "HI I AM WHATSAPP BOT☺️💞", //add alive msg
 };
