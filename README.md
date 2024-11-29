@@ -4,7 +4,7 @@
  [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=F01&lines=NURO+ＭＤ+V1+ＷＨＡＴＳＡＰＰ+ＢＯＴ)](https://git.io/typing-svg)
 <p align="center">
 <a href="https://github.com/Tharakadilshan0423/NURO-MD1">
-    <img src="https://i.imgur.com/Md3nK0I.jpeg"  width="700px">
+    <img src="https://i.imgur.com/Md3nK0I.jpeg"  width="400px">
 </a>
 <hr>
 
