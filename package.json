@@ -4,9 +4,9 @@
   "description": "A WhatsApp bot created using Node.js",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name NURO-MD",
-    "stop": "pm2 stop THARAKA",
-    "restart": "pm2 restart NURO-MD"
+    "start": "pm2 start index.js --deep-monitoring --attach --",
+    "stop": "pm2 stop ",
+    "restart": "pm2 restart "
   },
   "dependencies": {
         "@adiwajshing/keyed-db": "^0.2.4",
