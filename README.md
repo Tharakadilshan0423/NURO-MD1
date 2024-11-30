@@ -15,4 +15,4 @@
 </hr>
 <b>GET SESSION ID VIA PAIR CODE 01</b>
 
-<a href="https://pair-code-production.up.railway.app/pair"><img alt='Get Session ID' src='https://defensive-livia-nuron-1eef2f02.koyeb.app/'/></a>
+<a href="https://pair-code-production.up.railway.app/pair"><img alt='Get Session ID' src=''/></a>
