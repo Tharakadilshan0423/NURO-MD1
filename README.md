@@ -2,10 +2,9 @@
 
 
  [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=F01&lines=NURO+ＭＤ+ＷＨＡＴＳＡＰＰ+ＢＯＴ)](https://git.io/typing-svg)
-<img src="https://imgur.com/a/1R9b3K1" height="300" width="400%">
+<img src="https://imgur.com/a/1R9b3K1"  width="700px">
 
 <p align="center">
-
 </a>
 <hr>
  <p align="center">
