@@ -16,9 +16,9 @@ try{
 let data = await fetchJson(`https://chatgptforprabath-md.vercel.app/api/gptv1?q=${q}`)
 return reply(`${data.data}
 
-> QUEEN ISHU MD
+> NURO MD
 
-*CREATE BY LAKSIDU NIMSARA*`)
+*CREATE BY THARAKA DILSHAN*`)
 }catch(e){
 console.log(e)
 reply(`${e}`)
