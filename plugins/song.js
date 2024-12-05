@@ -1,97 +1,122 @@
-/*created by tharaka 
+/*
+created by tharaka
+ DONT COPY
 */
-
-
 
 const {cmd , commands} = require('../command')
 const fg = require('api-dylux')
 const yts = require('yt-search')
-
 cmd({
-    pattern: "mp",
-    desc: "download songs",
-    category: "download",
+    pattern: "song",
+    desc: "To download songs.",
     react: "🎵",
+    category: "download",
     filename: __filename
 },
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
-if(!q) return reply("*කරුණාකර Link එකක් හො නමක් ලබා දෙන්න 🔎...*")
+if(!q) return reply("Please give me a url or title")  
 const search = await yts(q)
-const data = search.videos[0]
+const data = search.videos[0];
 const url = data.url
+    
+    
+let desc = `
+*╔══════✮❁•°♛°•❁✮ ══════╗*
+*💜𝐍𝐔𝐑𝐎 𝐒𝐎𝐍𝐆 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐄𝐑💜*
+*╚══════✮❁•°❀°•❁✮═══════╝*
 
-let desc = `*◆NURO-MD SONG DOWNLOADER ◆*
+*╔══════✮❁•°♛°•❁✮ ══════╗*
+*║*
+*║☞💜➥Title:${data.title}* 
+*║☞💜➥Duration:${data.timestamp}*
+*║☞💜➥Views:${data.views}*
+*║☞💜➥Uploaded On:${data.ago}* 
+*║☞💜➥Link:${data.url}* 
+*║*
+*╚══════✮❁•°❀°•❁✮═══════╝*
 
-| ➤ TITLE - ${data.title}
+*╔══════✮❁•°♛°•❁✮ ═══════╗*
+*🎧𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐈𝐍𝐆 𝐘𝐎𝐔𝐑 𝐒𝐎𝐍𝐆🎧*
+*╚══════✮❁•°♛°•❁✮ ═══════╝*
 
-| ➤ VIEWS - ${data.views}
+*☞⚡NURO MD NEW UPDATE*
 
-| ➤ DESCRIPTION - ${data.description}
-
-| ➤ TIME - ${data.timestamp}
-
-|➤ AGO - ${data.ago}
-
- ©CREATE BY THARAKA DILSHAN
+> *©CREATED BY THARAKA DILSHAN* 
 `
+
 await conn.sendMessage(from,{image:{url: data.thumbnail},caption:desc},{quoted:mek});
 
 //download audio
 
-let down = await fg.yta(url)  
+let down = await fg.yta(url)
 let downloadUrl = down.dl_url
 
-//send audio
-await conn.sendMessage(from,{audio:{url: downloadUrl},mimetype:"audio/mpeg"},{quoted:mek})
-await conn.sendMessage(from,{document:{url: downloadUrl},mimetype:"audio/mpeg",fileName:data.title + "mp3",caption:" ©CREATE BY THARAKA DILSHAN"},{quoted:mek})
+//send audio message
+await conn.sendMessage(from,{audio: {url:downloadUrl},mimetype:"audio/mpeg"},{quoted:mek})
+await conn.sendMessage(from,{document: {url:downloadUrl},mimetype:"audio/mpeg",fileName:data.title + ".mp3",caption:"*QUEEN ISHU MD*"},{quoted:mek})
+
 }catch(e){
-reply(`${e}`)
+console.log(e)
+  reply('ERROR')
 }
 })
 
-//===========video-dl===========
+//====================video_dl=======================
 
 cmd({
-    pattern: "laki",
-    desc: "download video",
+    pattern: "video",
+    alias: ["yt"],
+    desc: "To download videos.",
+    react: "📽️",
     category: "download",
-    react: "🎥",
     filename: __filename
 },
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
-if(!q) return reply("*කරුණාකර Link එකක් හො නමක් ලබා දෙන්න 🔎...*")
+if(!q) return reply("Please give me a url or title")  
 const search = await yts(q)
-const data = search.videos[0]
+const data = search.videos[0];
 const url = data.url
+    
+    
+let desc = `
+*╔══════✮❁•°♛°•❁✮ ══════╗*
+*❤️️𝐍𝐔𝐑𝐎 𝐕𝐈𝐃𝐄𝐎 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐄𝐑❤️️*
+*╚══════✮❁•°❀°•❁✮═══════╝*
 
-let des = `*◆NURO-MD VIDEO DOWNLOADER ◆*
+*╔══════✮❁•°♛°•❁✮ ══════╗*
+*║*
+*║☞💜➥Title:${data.title}* 
+*║☞💜➥Duration:${data.timestamp}*
+*║☞💜➥Views:${data.views}*
+*║☞💜➥Uploaded On:${data.ago}* 
+*║☞💜➥Link:${data.url}* 
+*║*
+*╚══════✮❁•°❀°•❁✮═══════╝*
 
-| ➤ TITLE - ${data.title}
+*╔══════✮❁•°♛°•❁✮ ═══════╗*
+*🎥𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐈𝐍𝐆 𝐘𝐎𝐔𝐑 𝐕𝐈𝐃𝐄𝐎🎥*
+*╚══════✮❁•°♛°•❁✮ ═══════╝*
 
-| ➤ VIEWS - ${data.views}
+*☞⚡NURO MD NEW UPDATE*
 
-| ➤ DESCRIPTION - ${data.description}
-
-| ➤ TIME - ${data.timestamp}
-
-| ➤ AGO - ${data.ago}
-
- ©CREATE BY THARAKA DILSHAN
+> *©CREATED BY THARAKA DILSHAN* 
 `
-await conn.sendMessage(from,{image:{url: data.thumbnail},caption:des},{quoted:mek});
+
+await conn.sendMessage(from,{image:{url: data.thumbnail},caption:desc},{quoted:mek});
 
 //download video
 
-let down = await fg.ytv(url)  
+let down = await fg.ytv(url)
 let downloadUrl = down.dl_url
 
-//send video
-await conn.sendMessage(from,{video:{url: downloadUrl},mimetype:"video/mp4"},{quoted:mek})
-await conn.sendMessage(from,{document:{url: downloadUrl},mimetype:"video/mp4",fileName:data.title + "mp4",caption:" ©CREATE BY LAKSIDU NIMSARA"},{quoted:mek})
-    
-}catch(a){
-reply(`${a}`)
+//send video message
+await conn.sendMessage(from,{video: {url:downloadUrl},mimetype:"video/mp4"},{quoted:mek})
+await conn.sendMessage(from,{document: {url:downloadUrl},mimetype:"video/mp4",fileName:data.title + ".mp4",caption:"*QUEEN ISHU MD"},{quoted:mek})
+
+}catch(e){
+console.log(e)
+  reply('ERROR')
 }
 })
