@@ -36,7 +36,7 @@
 
   </a>
   <a href="https://github.com/ASITHA-MD/ASITHA-MD">
-    <img src="https://img.shields.io/static/v1?label=Author&message=Asitha%20Chathuranga&color=purple&style=plastic">
+    <img src="https://img.shields.io/static/v1?label=Author&message=Tharaka%20Dilshan&color=purple&style=plastic">
 
   </a>
   </p>
