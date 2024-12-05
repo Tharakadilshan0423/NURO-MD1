@@ -1,24 +1,67 @@
+
 <div align="center">
 
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=EB+Garamond&weight=800&size=28&duration=4000&pause=1000&random=false&width=435&lines=WELCOME TO NURO MD WHATS APP BOT">  🌎 🤴//
 
- [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=F01&lines=NURO+ＭＤ+V1+ＷＨＡＴＳＡＰＰ+ＢＯＴ)](https://git.io/typing-svg)
-<p align="center">
-<a href="https://github.com/Tharakadilshan0423/NURO-MD1">
-    <img src="https://i.imgur.com/Md3nK0I.jpeg"  width="400px">
-</a>
+<img src="https://imgur.com/a/1R9b3K1"  width="350"></a>
+
+ </details>
+ <hr>
+ <img src="http://readme-typing-svg.herokuapp.com?color=d1fa02&center=true&vCenter=true&multiline=false&lines=Created+By+Laksidu_Min" alt="">
+  <hr>
+
+  ## 1. FORK REPOSITOR
+
+
+ <a href="https://github.com/laksidunimsara1/QUEEN-ISHU-MD/fork"><img src="https://img.shields.io/badge/Fork%20Repo-red" alt="queen ishu MD REPO" width="150"></a>
+  </br>
+   <img src="https://i.imgur.com/dBaSKWF.gif" height="90" width="100%">
+   <br>
+
+# 2 PAIR CODE
+
+<a href="https://queen-iahu-pair-43af5d9cec43.herokuapp.com/"><img src="https://img.shields.io/badge/PAIR%20CODE-blue" alt="PAIR CODE" width="150"></a>
+  </br>
+   <img src="https://i.imgur.com/dBaSKWF.gif" height="90" width="100%">
+   <br>
+
+             【============𝐋𝐀𝐊𝐒𝐈𝐃𝐔 𝐍𝐈𝐌𝐒𝐀𝐑𝐀 𝐌𝐀𝐇𝐄𝐒𝐇 𝐖𝐈𝐂𝐊𝐑𝐀𝐌𝐀𝐒𝐈𝐍𝐇𝐀=============】
+
+
+</details>
+       <hr>
+<img src="http://readme-typing-svg.herokuapp.com?color=d1fa02&center=true&vCenter=true&multiline=false&lines=Created+By+Laksidu_Min" alt="">
 <hr>
 
- <p align="center">
+  <hr>
+<h4> Following 👇</h4>
+<h1><a href="https://queen-ishu-md.tiiny.site/"> QUEEN ISHU OFFICIAL WEB SITE</a></h1>
+<p>
+<body>
 
-  <a href="https://github.com/Tharakadilshan0423/NURO-MD1">
-    <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FASITHA-MD%2FASITHA-MD&count_bg=%2379C83D&title_bg=%23555555&icon=gitpod.svg&icon_color=%23E7E7E7&title=Views&edge_flat=false" alt="Views"/></a>
-</hr>
 
-<b>GET SESSION ID VIA PAIR CODE 01</b>
+## 3 Deploy.
 
-<a href="https://defensive-livia-nuron-1eef2f02.koyeb.app/"><img alt='Get Session ID' src='https://img.shields.io/badge/Click here to get your session id-blue?style=for-the-badge&logo=opencv&logoColor=white'/></a>
+# BOT DIPLOY USE OUR WEBSITE
 
-<b>COPY WORKFLOW CODE</b></br>
+ <a href="https://queen-ishu-md.tiiny.site/"><img src="https://img.shields.io/badge/OFFIACIAL%20WEB SITE-yellow" alt="OFFIACIAL WEB SITE" width="350"></a>
+  </br>
+   <img src="https://i.imgur.com/dBaSKWF.gif" height="180" width="100%">
+
+
+<p align="center">
+<img src="https://github.com/Platane/snk/raw/output/github-contribution-grid-snake.svg" alt="nz" width="700"/>
+</p>
+
+//🐀  🎀  𝒞𝑅𝒜𝒯𝐸 𝐵𝒴 𝐿𝒜𝒦𝒮𝐼𝒟𝒰 𝒩𝐼𝑀𝒮𝒜𝑅𝒜  🎀  🐀//
+
+
+</details>
+<hr>
+<img src="http://readme-typing-svg.herokuapp.com?color=d1fa02&center=true&vCenter=true&multiline=false&lines=Created+By+Laksidu_Min" alt="">
+<hr>
+
+**🎀🎀🎀🎀🎀🎀🎀FREE DEPLOY WORKFLOWS🎀🎀🎀🎀🎀🎀🎀**
 ```
 name: Node.js CI
 
