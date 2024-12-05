@@ -49,8 +49,6 @@
 
 <hr>
 
-  _Github Account._<br><br>
-     [![NIMAYT](https://img.shields.io/badge/HOW_TO_MAKE_GITHUB_ACCOUNT-red?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/NZ6oSZfoR88?si=A4ThxQppWddcYZYD)
 <br>
 <hr>
 <b>CONTACT OWNER</b>
