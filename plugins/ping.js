@@ -24,7 +24,7 @@ var inital = new Date().getTime();
 let ping = await conn.sendMessage(from , { text: '*⚡NURO-MD💜-SPEED⚡*'  }, { quoted: mek } )
 var final = new Date().getTime();
 await conn.sendMessage(from, { delete: ping.key })
-return await conn.sendMessage(from , { text: '*💜⚡Pong⚡💜*\n *' + (final - inital) + ' ms* '  }, { quoted: mek } )
+return await conn.sendMessage(from , { text: '*💜⚡_~NURO-MD SPEED~_⚡💜*\n *' + (final - inital) + ' ms* '  }, { quoted: mek } )
 } catch (e) {
 reply('*Error !!*')
 l(e)
