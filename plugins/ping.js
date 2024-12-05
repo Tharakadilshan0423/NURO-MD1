@@ -11,7 +11,7 @@ const { cmd, commands } = require('../command')
 const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, runtime, sleep, fetchJson} = require('../lib/functions')
 cmd({
     pattern: "ping",
-    react: "👀",
+    react: "🌎",
     alias: ["speed"],
     desc: "Check bot\'s ping",
     category: "main",
