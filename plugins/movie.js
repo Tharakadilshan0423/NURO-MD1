@@ -36,28 +36,28 @@ cmd({
 ❤️️  𝐍𝐔𝐑𝐎 𝐌𝐎𝐕𝐈𝐄 𝐒𝐄𝐑𝐂𝐇 ❤️️
 *╚══════✮❁•°❀°•❁✮══════╝*
 
-*➤🌟ᴛɪᴛʟᴇ:* ${data.Title}
-*➤🌟ʏᴇᴀʀ:* ${data.Year}
-*➤🌟ʀᴀᴛᴇᴅ:* ${data.Rated}
-*➤🌟ʀᴇʟᴇᴀꜱᴇᴅ:* ${data.Released}
-*➤🌟ʀᴜɴᴛɪᴍᴇ:* ${data.Runtime}
-*➤🌟ɢᴇɴʀᴇ:* ${data.Genre}
-*➤🌟ᴅɪʀᴇᴄᴛᴏʀ:* ${data.Director}
-*➤🌟ᴡʀɪᴛᴇʀ:* ${data.Writer}
-*➤🌟ᴀᴄᴛᴏʀꜱ:* ${data.Actors}
-*➤🌟ʟᴀɴɢᴜᴀɢᴇ:* ${data.Language}
-*➤🌟ᴄᴏᴜɴᴛʀʏ:* ${data.Country}
-*➤🌟ᴀᴡᴀʀᴅꜱ:* ${data.Awards}
-*➤🌟ɪᴍᴅʙ ʀᴀᴛɪɴɢ:* ${data.imdbRating}
+*➤⚡ᴛɪᴛʟᴇ:* ${data.Title}
+*➤⚡ʏᴇᴀʀ:* ${data.Year}
+*➤⚡ʀᴀᴛᴇᴅ:* ${data.Rated}
+*➤⚡ʀᴇʟᴇᴀꜱᴇᴅ:* ${data.Released}
+*➤⚡ʀᴜɴᴛɪᴍᴇ:* ${data.Runtime}
+*➤⚡ɢᴇɴʀᴇ:* ${data.Genre}
+*➤⚡ᴅɪʀᴇᴄᴛᴏʀ:* ${data.Director}
+*➤⚡ᴡʀɪᴛᴇʀ:* ${data.Writer}
+*➤⚡ᴀᴄᴛᴏʀꜱ:* ${data.Actors}
+*➤⚡ʟᴀɴɢᴜᴀɢᴇ:* ${data.Language}
+*➤⚡ᴄᴏᴜɴᴛʀʏ:* ${data.Country}
+*➤⚡ᴀᴡᴀʀᴅꜱ:* ${data.Awards}
+*➤⚡ɪᴍᴅʙ ʀᴀᴛɪɴɢ:* ${data.imdbRating}
 
-*»»———-QUEEN ISHU MD-———-««*
+*»»———-NURO MD-———-««*
 `;
 
         const imageUrl = data.Poster && data.Poster !== 'N/A' ? data.Poster : config.ALIVE_IMG;
 
         await conn.sendMessage(from, {
             image: { url: imageUrl },
-            caption: `${movieInfo}\n> POWERD BY NURO ISHU MD`
+            caption: `${movieInfo}\n> POWERD BY NURO MD`
         }, { quoted: mek });
     } catch (e) {
         console.error(e);
