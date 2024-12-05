@@ -4,9 +4,9 @@
   "description": "A WhatsApp bot created using Node.js",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name ishubot",
-    "stop": "pm2 stop ishubot",
-    "restart": "pm2 restart ishubot"
+    "start": "pm2 start index.js --deep-monitoring --attach --name nurobot",
+    "stop": "pm2 stop nurobot",
+    "restart": "pm2 restart nurobot"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "6.6.0",
