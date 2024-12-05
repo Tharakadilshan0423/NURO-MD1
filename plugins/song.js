@@ -8,7 +8,7 @@ const fg = require('api-dylux')
 const yts = require('yt-search')
 
 cmd({
-    pattern: "song",
+    pattern: "mp",
     desc: "download songs",
     category: "download",
     react: "🎵",
