@@ -92,7 +92,24 @@
     
     }, 
 
-    "BOT_NAME": {
-      "description": "",
+"BOT_NAME": {
+      "description": " your name.",
       "required": true,
-      "value": "NURO MD"
+      "value": "NURO"
+    }, 
+
+    "HEART_REACT": {
+      "description": " reaction .",
+      "required": true,
+      "value": "true"
+    }
+
+},
+
+     "buildpacks": [
+        {
+            "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+        }
+     ],
+  "stack": "heroku-24"
+}
