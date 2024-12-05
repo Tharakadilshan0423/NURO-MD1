@@ -1,36 +1,98 @@
 {
-  "name": "NURO(main)",
-  "description": "THARAKA DILSHAN",
+  "name": "NURO-MD",
+  "description": "WORD BEST MD WHATSAPP BOT",
   "logo": "https://imgur.com/a/1R9b3K1",
-  "keywords": ["nodejs", "bot", "whatsapp bot", "multi device"],
+  "keywords": ["bot"],
   "success_url": "/",
 
+    "stack": "container",
   "env": {
     "SESSION_ID": {
-      "description": "Put Your SESSION ID",
-      "required": false
+      "description": "LdQg2YDb#z4Y8S860ZYG-Wu7en777ptHBpNCJkcnWrOpgYHEnYVM",
+      "required": true,
+      "value": ""
+    },  
+    
+    "ALIVE_IMG": {
+      "description": "ALIVE URL.",
+      "required": true,
+      "value": "https://imgur.com/a/1R9b3K1"
+    }, 
+    
+    "ALIVE_MSG": {
+      "description": " alive message ",
+      "required": true,
+      "value": "*☞💜HI I AM NURO WHATS APP BOT💜✅*"
+    },
+    
+    "PREFIX": {
+      "description": " prefix.",
+      "required": true,
+      "value": "."
+    },
+    
+    "MODE": {
+      "description": " public-private-inbox-group.",
+      "required": true,
+      "value": "privet"
+    }, 
+
+    "AUTO_VOICE": {
+      "description": " auto voice.",
+      "required": true,
+      "value": "true"
+    }, 
+
+    "AUTO_REPLY": {
+      "description": "auto reply.",
+      "required": true,
+      "value": "true"
+    }, 
+
+    "AUTO_STICKER": {
+      "description": " auto sticker.",
+      "required": true,
+      "value": "true"
+    }, 
+
+    "AUTO_READ_STATUS": {
+      "description": " auto_read_status.",
+      "required": true,
+      "value": "true"
+    }, 
+
+    "ANTI_LINK": {
+      "description": " remove group link.",
+      "required": true,
+      "value": "false"
     },
 
-      "AUTO_READ_STATUS": {
-       "description": "true or false",
-         "required": false
+    "ANTI_BAD": {
+      "description": " auto delete bad words .",
+      "required": true,
+      "value": "false"
+    }, 
 
-     },
+    "FAKE_RECORDING": {
+      "description": " fake record.",
+      "required": true,
+      "value": "true"
+    },
 
-      "MODE": {
-         "description": "priver/public",
-            "required": false
+    "AUTO_REACT": {
+      "description": " AutoReact.",
+      "required": true,
+      "value": "true"
+    },
 
-     }
+    "OWNER_REACT": {
+      "description": " OwnerReact.",
+      "required": true,
+      "value": "true"
+    
+    }, 
 
-  },
-
-     "buildpacks": [
-        {
-            "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
-        }
-     ],
-  "stack": "heroku-22"
-  
-  
-}
+    "BOT_NAME": {
+      "description": "",
+      "required": true,
+      "value": "NURO MD"
