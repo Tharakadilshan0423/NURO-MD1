@@ -1,7 +1,7 @@
 {
   "name": "NURO-MD",
   "description": "WORD BEST MD WHATSAPP BOT",
-  "logo": "https://imgur.com/h1QfnbH.jpg",
+  "logo": "https://imgur.com/JrxH6Tk.jpg",
   "keywords": ["bot"],
   "success_url": "/",
 
@@ -16,7 +16,7 @@
     "ALIVE_IMG": {
       "description": "ALIVE URL.",
       "required": true,
-      "value": "https://imgur.com/h1QfnbH.jpg"
+      "value": "https://imgur.com/JrxH6Tk.jpg"
     }, 
     
     "ALIVE_MSG": {
