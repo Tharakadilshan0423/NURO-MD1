@@ -47,7 +47,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
 *NURO MD CREATED BY THARAKA DILSHANッ*`;
 
-        const vv = await conn.sendMessage(from, { image: { url: "https://i.imgur.com/Md3nK0I.jpeg"}, caption: desc }, { quoted: mek });
+        const vv = await conn.sendMessage(from, { image: { url: "https://imgur.com/JrxH6Tk.jpg"}, caption: desc }, { quoted: mek });
 
         conn.ev.on('messages.upsert', async (msgUpdate) => {
             const msg = msgUpdate.messages[0];
