@@ -7,6 +7,7 @@ function convertToBool(text, fault = 'true') {
 module.exports = {
 ///=================ඕවා එඩිට් කරද්දි කිසිම දෙයක් වැරදියට දමන්න එපා !!MAIN-CONFIG=================================
 SESSION_ID: process.env.SESSION_ID || "LdQg2YDb#z4Y8S860ZYG-Wu7en777ptHBpNCJkcnWrOpgYHEnYVM",  // ADD Your Session Id 
+MONGODB: process.env.MONGODB || "mongodb+srv://SithumKalhara:97531@cluster0.iva7dbo.mongodb.net/?retryWrites=true&w=majority",
 MODE: process.env.MODE || "privet",  // Add Your Bot Mode (groups/privet/public)
 PREFIX: process.env.PREFIX || ".",   // Add Your Custom Prefix 
 OWNER_REACT: process.env.OWNER_REACT || "true", //add true or false
